@@ -9,22 +9,22 @@ int main() {
 	// Declare variables
 	int numTables, numDellThinClients, numAllInOneClients, numKeyboards, numMice;
 	double tableTotalPrice, dellThinClientTotalPrice, allInOneClientTotalPrice, keyboardTotalPrice, mouseTotalPrice, subtotal, tax, total;
-	const double tableUnitPrice = 429.88;
-	const double dellThinClientUnitPrice = 616;
-	const double allInOneClientUnitPrice = 851;
-	const double keyboardUnitPrice = 18.30;
-	const double mouseUnitPrice = 16.45;
+	const double tableUnitPrice = 469.99;
+	const double dellThinClientUnitPrice = 699.99;
+	const double allInOneClientUnitPrice = 899.99;
+	const double keyboardUnitPrice = 18.99;
+	const double mouseUnitPrice = 16.99;
 	
 	// Input quantity of each product ordered
-	cout << "How many 24 x 72 inch tables ordered? ";
+	cout << "How many 24 x 72 inch tables were ordered? ";
 	cin >> numTables;
-	cout << "How many Dell Dell thin clients ordered? ";
+	cout << "How many Dell Dell thin clients were ordered? ";
 	cin >> numDellThinClients;
-	cout << "How many Dell All-in-One Thin Clients ordered? ";
+	cout << "How many Dell All-in-One Thin Clients were ordered? ";
 	cin >> numAllInOneClients;
-	cout << "How many Dell Keyboards ordered? ";
+	cout << "How many Dell Keyboards were ordered? ";
 	cin >> numKeyboards;
-	cout << "How many Dell mouses ordered? ";
+	cout << "How many Dell mice were ordered? ";
 	cin >> numMice;
 	cout << "\n";
 	
